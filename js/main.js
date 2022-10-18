@@ -18,17 +18,17 @@ elForm.addEventListener("submit", function(evt){
     
     
     if(elInputValue % 3 == 0) {
-        newArrFizz.push(elInput.value);
-        elFizzText.textContent = newArrFizz
+        newArrFizz.push(elInputValue);
+        elFizzText.innerHTML += newArrFizz + ",";
     }
     
     if(elInputValue % 5 == 0) {
-        newArrBuzz.push(elInput.value);
-        elBuzzText.textContent = newArrBuzz
+        newArrBuzz.push(elInputValue);
+        elBuzzText.innerHTML += newArrBuzz + ",";
     }
     
     if(elInputValue % 15 == 0) {
-        newArrFizzBuzz.push(elInput.value);
-        elFizzBuzzText.textContent = newArrFizzBuzz
+        newArrFizzBuzz.push(elInputValue);
+        elFizzBuzzText.innerHTML += newArrFizzBuzz + ",";
     }
 })
