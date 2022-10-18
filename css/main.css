@@ -71,5 +71,13 @@ body{
 }
 
 
+h2 {
+  font-size: 20px;
+}
 
-
+.text-border {
+  display: inline-block;
+  width: 150px;
+  height: 25px;
+  border: 1px solid #000;
+}
